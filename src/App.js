@@ -10,11 +10,6 @@ function App() {
     gender:''
   });
 
-  // const [errorMessage, setErrorMessage] = useState({
-  //   show: false,
-  //   message: ''
-  // })
-
   const handleFormInput = (event) => {
     let inputValue = event.target.value; //get input value
     // console.log(inputValue);
